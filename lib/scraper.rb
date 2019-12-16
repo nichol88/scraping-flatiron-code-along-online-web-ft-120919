@@ -14,6 +14,6 @@ class Scraper
         puts "  Description: #{course.description}"
       end # if
     end # Course
-  end #print_courses
+  end # print_courses
 
 end
