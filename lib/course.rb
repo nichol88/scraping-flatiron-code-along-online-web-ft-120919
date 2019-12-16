@@ -8,4 +8,8 @@ class Course
   def all
     @@all
   end
+
+  def reset_all
+    @@all = []
+  end
 end
