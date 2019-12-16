@@ -23,11 +23,12 @@ class Scraper
   end
 
   def get_courses
-    get_page.css(".posts-holder h2")
+    get_page.css(".posts-holder")
   end
 
   def make_courses
     courses = get_courses
+
     binding.pry
   end
 
