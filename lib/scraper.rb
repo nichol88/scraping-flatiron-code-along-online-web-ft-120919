@@ -30,6 +30,7 @@ class Scraper
     courses = get_courses
     titles = courses.css("h2")
     descriptions = courses.css("p")
+    schedules = courses.css(".date")
     binding.pry
   end
 
