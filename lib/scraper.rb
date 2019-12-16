@@ -38,7 +38,7 @@ class Scraper
       c.description = descriptions[i]
       c.schedule = schedules[i]
     }
-    binding.pry
+    #binding.pry
   end
 
 end # Scraper
