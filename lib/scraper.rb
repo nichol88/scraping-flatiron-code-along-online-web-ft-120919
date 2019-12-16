@@ -27,7 +27,7 @@ class Scraper
   end
 
   def make_courses
-
+    binding.pry
   end
 
 end # Scraper
