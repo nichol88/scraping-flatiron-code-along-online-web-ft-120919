@@ -28,7 +28,8 @@ class Scraper
 
   def make_courses
     courses = get_courses
-
+    titles = courses.css("h2")
+    descriptions = courses.css("p")
     binding.pry
   end
 
