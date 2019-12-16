@@ -34,7 +34,9 @@ class Scraper
 
     courses.each_with_index{ |course, i|
       c = Course.new
-      c.title
+      c.title = titles[i]
+      c.description = descriptions[i]
+      c.schedule = schedules[i]
     }
     binding.pry
   end
