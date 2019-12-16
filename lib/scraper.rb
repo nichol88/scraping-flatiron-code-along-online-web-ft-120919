@@ -31,6 +31,11 @@ class Scraper
     titles = courses.css("h2")
     descriptions = courses.css("p")
     schedules = courses.css(".date")
+
+    courses.each_with_index{ |course, i|
+      c = Course.new
+      c.title
+    }
     binding.pry
   end
 
